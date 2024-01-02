@@ -20,6 +20,7 @@ Remember to replace 'Maia-DAO/foundry-template' with your repository's path and 
 [![Test CI][ci-badge]][ci-link]
 [![Lint][lint-badge]][lint-link]
 [![Code Coverage][coverage-badge]][coverage-link]
+[![Solidity][solidity-shield]][ci-link]
 [![License][license-badge]][license-link]
 [![Docs][docs-badge]][docs-link]
 [![Discord][discord-badge]][discord-link]
@@ -48,7 +49,7 @@ Note that helper contracts used by tests are held in the `./test/utils` subfolde
 
 ```ml
 src
-└── Counter.sol
+└── Counter - "Contract desciption"
 test
 └── Counter.t.sol
 ```
@@ -85,6 +86,7 @@ Update the following badge links for your repository:
 [lint-link]: https://github.com/Maia-DAO/foundry-template/actions/workflows/lint.yml
 [coverage-badge]: .github/coverage-badge.svg
 [coverage-link]: .github/coverage-badge.svg
+[solidity-shield]: https://img.shields.io/badge/solidity-%5E0.8.0-aa6746
 [license-badge]: https://img.shields.io/github/license/Maia-DAO/foundry-template
 [license-link]: https://github.com/Maia-DAO/foundry-template/blob/main/LICENSE
 [docs-badge]: https://img.shields.io/badge/Ecosystem-documentation-informational
